@@ -23,4 +23,26 @@ class Pizza{
         self.cost = cost
         self.crust = crust
     }
+    
+    
+    static func ==(lhs : Pizza, rhs : Pizza) -> Bool {
+        if lhs.size != rhs.size {
+            return false
+        }
+        if lhs.toppings != rhs.toppings {
+            return false
+        }
+        if lhs.sauce != rhs.sauce {
+            return false
+        }
+        if lhs.cost != rhs.cost {
+            return false
+        }
+        if lhs.crust != rhs.crust {
+            return false
+        }
+        return true
+    }
+    
+
 }
