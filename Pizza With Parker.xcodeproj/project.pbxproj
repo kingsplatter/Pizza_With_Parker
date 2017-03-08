@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1ECEEA71E70802A00479A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEA61E70802A00479A07 /* AppDelegate.swift */; };
+		C1ECEEA91E70802A00479A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEA81E70802A00479A07 /* ViewController.swift */; };
+		C1ECEEAC1E70802A00479A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ECEEAA1E70802A00479A07 /* Main.storyboard */; };
+		C1ECEEAE1E70802A00479A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ECEEAD1E70802A00479A07 /* Assets.xcassets */; };
+		C1ECEEB11E70802A00479A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ECEEAF1E70802A00479A07 /* LaunchScreen.storyboard */; };
+		C1ECEEBC1E70802A00479A07 /* Pizza_With_ParkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEBB1E70802A00479A07 /* Pizza_With_ParkerTests.swift */; };
+		C1ECEEC71E70802A00479A07 /* Pizza_With_ParkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEC61E70802A00479A07 /* Pizza_With_ParkerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1ECEEB81E70802A00479A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1ECEE9B1E70802A00479A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1ECEEA21E70802A00479A07;
+			remoteInfo = "Pizza With Parker";
+		};
+		C1ECEEC31E70802A00479A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1ECEE9B1E70802A00479A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1ECEEA21E70802A00479A07;
+			remoteInfo = "Pizza With Parker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1ECEEA31E70802A00479A07 /* Pizza With Parker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza With Parker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ECEEA61E70802A00479A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1ECEEA81E70802A00479A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1ECEEAB1E70802A00479A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1ECEEAD1E70802A00479A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1ECEEB01E70802A00479A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1ECEEB21E70802A00479A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ECEEB71E70802A00479A07 /* Pizza With ParkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza With ParkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ECEEBB1E70802A00479A07 /* Pizza_With_ParkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_With_ParkerTests.swift; sourceTree = "<group>"; };
+		C1ECEEBD1E70802A00479A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ECEEC21E70802A00479A07 /* Pizza With ParkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza With ParkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ECEEC61E70802A00479A07 /* Pizza_With_ParkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza_With_ParkerUITests.swift; sourceTree = "<group>"; };
+		C1ECEEC81E70802A00479A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1ECEEA01E70802A00479A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEB41E70802A00479A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEBF1E70802A00479A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1ECEE9A1E70802A00479A07 = {
+			isa = PBXGroup;
+			children = (
+				C1ECEEA51E70802A00479A07 /* Pizza With Parker */,
+				C1ECEEBA1E70802A00479A07 /* Pizza With ParkerTests */,
+				C1ECEEC51E70802A00479A07 /* Pizza With ParkerUITests */,
+				C1ECEEA41E70802A00479A07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1ECEEA41E70802A00479A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1ECEEA31E70802A00479A07 /* Pizza With Parker.app */,
+				C1ECEEB71E70802A00479A07 /* Pizza With ParkerTests.xctest */,
+				C1ECEEC21E70802A00479A07 /* Pizza With ParkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1ECEEA51E70802A00479A07 /* Pizza With Parker */ = {
+			isa = PBXGroup;
+			children = (
+				C1ECEEA61E70802A00479A07 /* AppDelegate.swift */,
+				C1ECEEA81E70802A00479A07 /* ViewController.swift */,
+				C1ECEEAA1E70802A00479A07 /* Main.storyboard */,
+				C1ECEEAD1E70802A00479A07 /* Assets.xcassets */,
+				C1ECEEAF1E70802A00479A07 /* LaunchScreen.storyboard */,
+				C1ECEEB21E70802A00479A07 /* Info.plist */,
+			);
+			path = "Pizza With Parker";
+			sourceTree = "<group>";
+		};
+		C1ECEEBA1E70802A00479A07 /* Pizza With ParkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1ECEEBB1E70802A00479A07 /* Pizza_With_ParkerTests.swift */,
+				C1ECEEBD1E70802A00479A07 /* Info.plist */,
+			);
+			path = "Pizza With ParkerTests";
+			sourceTree = "<group>";
+		};
+		C1ECEEC51E70802A00479A07 /* Pizza With ParkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1ECEEC61E70802A00479A07 /* Pizza_With_ParkerUITests.swift */,
+				C1ECEEC81E70802A00479A07 /* Info.plist */,
+			);
+			path = "Pizza With ParkerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1ECEEA21E70802A00479A07 /* Pizza With Parker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1ECEECB1E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With Parker" */;
+			buildPhases = (
+				C1ECEE9F1E70802A00479A07 /* Sources */,
+				C1ECEEA01E70802A00479A07 /* Frameworks */,
+				C1ECEEA11E70802A00479A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizza With Parker";
+			productName = "Pizza With Parker";
+			productReference = C1ECEEA31E70802A00479A07 /* Pizza With Parker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1ECEEB61E70802A00479A07 /* Pizza With ParkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1ECEECE1E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerTests" */;
+			buildPhases = (
+				C1ECEEB31E70802A00479A07 /* Sources */,
+				C1ECEEB41E70802A00479A07 /* Frameworks */,
+				C1ECEEB51E70802A00479A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1ECEEB91E70802A00479A07 /* PBXTargetDependency */,
+			);
+			name = "Pizza With ParkerTests";
+			productName = "Pizza With ParkerTests";
+			productReference = C1ECEEB71E70802A00479A07 /* Pizza With ParkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1ECEEC11E70802A00479A07 /* Pizza With ParkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1ECEED11E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerUITests" */;
+			buildPhases = (
+				C1ECEEBE1E70802A00479A07 /* Sources */,
+				C1ECEEBF1E70802A00479A07 /* Frameworks */,
+				C1ECEEC01E70802A00479A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1ECEEC41E70802A00479A07 /* PBXTargetDependency */,
+			);
+			name = "Pizza With ParkerUITests";
+			productName = "Pizza With ParkerUITests";
+			productReference = C1ECEEC21E70802A00479A07 /* Pizza With ParkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1ECEE9B1E70802A00479A07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = e;
+				TargetAttributes = {
+					C1ECEEA21E70802A00479A07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7AF2P6S86E;
+						ProvisioningStyle = Automatic;
+					};
+					C1ECEEB61E70802A00479A07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7AF2P6S86E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1ECEEA21E70802A00479A07;
+					};
+					C1ECEEC11E70802A00479A07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7AF2P6S86E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1ECEEA21E70802A00479A07;
+					};
+				};
+			};
+			buildConfigurationList = C1ECEE9E1E70802A00479A07 /* Build configuration list for PBXProject "Pizza With Parker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1ECEE9A1E70802A00479A07;
+			productRefGroup = C1ECEEA41E70802A00479A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1ECEEA21E70802A00479A07 /* Pizza With Parker */,
+				C1ECEEB61E70802A00479A07 /* Pizza With ParkerTests */,
+				C1ECEEC11E70802A00479A07 /* Pizza With ParkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1ECEEA11E70802A00479A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ECEEB11E70802A00479A07 /* LaunchScreen.storyboard in Resources */,
+				C1ECEEAE1E70802A00479A07 /* Assets.xcassets in Resources */,
+				C1ECEEAC1E70802A00479A07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEB51E70802A00479A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEC01E70802A00479A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1ECEE9F1E70802A00479A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ECEEA91E70802A00479A07 /* ViewController.swift in Sources */,
+				C1ECEEA71E70802A00479A07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEB31E70802A00479A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ECEEBC1E70802A00479A07 /* Pizza_With_ParkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ECEEBE1E70802A00479A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ECEEC71E70802A00479A07 /* Pizza_With_ParkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1ECEEB91E70802A00479A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1ECEEA21E70802A00479A07 /* Pizza With Parker */;
+			targetProxy = C1ECEEB81E70802A00479A07 /* PBXContainerItemProxy */;
+		};
+		C1ECEEC41E70802A00479A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1ECEEA21E70802A00479A07 /* Pizza With Parker */;
+			targetProxy = C1ECEEC31E70802A00479A07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1ECEEAA1E70802A00479A07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1ECEEAB1E70802A00479A07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1ECEEAF1E70802A00479A07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1ECEEB01E70802A00479A07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1ECEEC91E70802A00479A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1ECEECA1E70802A00479A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1ECEECC1E70802A00479A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With Parker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-Parker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1ECEECD1E70802A00479A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With Parker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-Parker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C1ECEECF1E70802A00479A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With ParkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-ParkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizza With Parker.app/Pizza With Parker";
+			};
+			name = Debug;
+		};
+		C1ECEED01E70802A00479A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With ParkerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-ParkerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizza With Parker.app/Pizza With Parker";
+			};
+			name = Release;
+		};
+		C1ECEED21E70802A00479A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With ParkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-ParkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pizza With Parker";
+			};
+			name = Debug;
+		};
+		C1ECEED31E70802A00479A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7AF2P6S86E;
+				INFOPLIST_FILE = "Pizza With ParkerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NWKTC.Pizza-With-ParkerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pizza With Parker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1ECEE9E1E70802A00479A07 /* Build configuration list for PBXProject "Pizza With Parker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ECEEC91E70802A00479A07 /* Debug */,
+				C1ECEECA1E70802A00479A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1ECEECB1E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With Parker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ECEECC1E70802A00479A07 /* Debug */,
+				C1ECEECD1E70802A00479A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1ECEECE1E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ECEECF1E70802A00479A07 /* Debug */,
+				C1ECEED01E70802A00479A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1ECEED11E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ECEED21E70802A00479A07 /* Debug */,
+				C1ECEED31E70802A00479A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1ECEE9B1E70802A00479A07 /* Project object */;
+}
