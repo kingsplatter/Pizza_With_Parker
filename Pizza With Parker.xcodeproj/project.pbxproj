@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73D616AF1E709D8A0079B8AA /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D616AE1E709D8A0079B8AA /* pizza.swift */; };
 		C1ECEEA71E70802A00479A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEA61E70802A00479A07 /* AppDelegate.swift */; };
 		C1ECEEA91E70802A00479A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEEA81E70802A00479A07 /* ViewController.swift */; };
 		C1ECEEAC1E70802A00479A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ECEEAA1E70802A00479A07 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73D616AE1E709D8A0079B8AA /* pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 		C1ECEEA31E70802A00479A07 /* Pizza With Parker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza With Parker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ECEEA61E70802A00479A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1ECEEA81E70802A00479A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C1ECEEA61E70802A00479A07 /* AppDelegate.swift */,
 				C1ECEEA81E70802A00479A07 /* ViewController.swift */,
+				73D616AE1E709D8A0079B8AA /* pizza.swift */,
 				C1ECEEAA1E70802A00479A07 /* Main.storyboard */,
 				C1ECEEAD1E70802A00479A07 /* Assets.xcassets */,
 				C1ECEEAF1E70802A00479A07 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73D616AF1E709D8A0079B8AA /* pizza.swift in Sources */,
 				C1ECEEA91E70802A00479A07 /* ViewController.swift in Sources */,
 				C1ECEEA71E70802A00479A07 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				C1ECEECD1E70802A00479A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1ECEECE1E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C1ECEED01E70802A00479A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1ECEED11E70802A00479A07 /* Build configuration list for PBXNativeTarget "Pizza With ParkerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C1ECEED31E70802A00479A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
