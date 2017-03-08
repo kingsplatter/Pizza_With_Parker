@@ -7,7 +7,11 @@
 //
 
 import UIKit
-
+protocol PizzaMaker {
+    //im assuming you made your class "Pizza"
+    func orderPizza(pizza:[Pizza])->Int
+    func cookPizza(pizzas:[Pizza])->Void
+}
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
